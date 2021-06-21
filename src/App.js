@@ -1,7 +1,7 @@
 import Todos from "./Todos";
 import AddTodo from "./AddTodo";
 import Summary from "./Summary";
-import Count from "./Count";
+// import Count from "./Count";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <AddTodo />
         <Todos />
         <Summary />
-        <Count />
+        {/* <Count /> */}
       </div>
     </div>
   );
